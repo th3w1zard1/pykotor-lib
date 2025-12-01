@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: PyKotor
+Version: 1.7
+Summary: Read, modify and write files used by KotOR's game engine.
+Author: NickHugi
+Maintainer: th3w1zard1
+Maintainer-email: th3w1zard1 <halomastar@gmail.com>
+License: LGPL-3.0-or-later License
+Project-URL: Homepage, https://github.com/NickHugi/PyKotor
+Project-URL: Documentation, https://github.com/NickHugi/PyKotor/blob/master/README.md
+Project-URL: Repository, https://github.com/NickHugi/PyKotor.git
+Project-URL: Issues, https://github.com/NickHugi/PyKotor/issues
+Keywords: kotor,library,holocron,toolset,pykotor,editor,holopatcher,tslpatcher
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ply<4,>=3.11
+Provides-Extra: font
+Requires-Dist: pillow>=9.5; platform_python_implementation == "CPython" and extra == "font"
+Requires-Dist: pillow<11.1.0,>10; platform_python_implementation == "PyPy" and extra == "font"
+Provides-Extra: secure-xml
+Requires-Dist: defusedxml~=0.7; extra == "secure-xml"
+Provides-Extra: encodings
+Requires-Dist: charset-normalizer<3.4,>=2.0; extra == "encodings"
+Dynamic: license-file
+Dynamic: maintainer

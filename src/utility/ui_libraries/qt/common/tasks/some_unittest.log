@@ -1,0 +1,1323 @@
+G:\GitHub\PyKotor\tests\test_pykotor_font\test_files\TH Sarabun New Regular\TH Sarabun New Regular.ttf
+PyKotor not found, skipping tests
+<SDM> [update_sys_path scope] working_dir:  G:\GitHub\PyKotor\Libraries\PyKotor\src
+<SDM> [update_sys_path scope] working_dir:  G:\GitHub\PyKotor\Libraries\PyKotorGL\src
+<SDM> [update_sys_path scope] working_dir:  G:\GitHub\PyKotor\Libraries\PyKotor\src
+<SDM> [update_sys_path scope] working_dir:  G:\GitHub\PyKotor\Tools\HolocronToolset\src
+INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 3fdc89a6-1266-4a31-bb11-faae4809add5, operation: operation
+PID=21304 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 3fdc89a6-1266-4a31-bb11-faae4809add5, operation: operation
+DEBUG(root): Attempting to cancel task: 3fdc89a6-1266-4a31-bb11-faae4809add5
+DEBUG(root): Getting task: 3fdc89a6-1266-4a31-bb11-faae4809add5, result: Task(id='3fdc89a6-1266-4a31-bb11-faae4809add5', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac56d70>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac2b350>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac2b240>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 20, 430360, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['CANCELLED']
+DEBUG(root): Task cancelled: 3fdc89a6-1266-4a31-bb11-faae4809add5
+DEBUG(root): Getting task: 3fdc89a6-1266-4a31-bb11-faae4809add5, result: Task(id='3fdc89a6-1266-4a31-bb11-faae4809add5', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac2b350>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdabbfd90>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdace0210>}, status=<TaskStatus.CANCELLED: 6>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 20, 430360, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+.
+
+TEST_EXECUTION_RESULT:passed:test_utility.test_tasks.TestFileActionsExecutor.test_cancel_task:
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 6b474c76-e216-418b-840b-6c1241308a88, operation: operation
+PID=34852 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=34852 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1c7db693cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1c7dd75e660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1c7dd7665d0>}
+DEBUG(root): Task completed callback for: 3fdc89a6-1266-4a31-bb11-faae4809add5
+DEBUG(root): Getting task: 3fdc89a6-1266-4a31-bb11-faae4809add5, result: Task(id='3fdc89a6-1266-4a31-bb11-faae4809add5', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdabdf750>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afd8655e50>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac98cb0>}, status=<TaskStatus.CANCELLED: 6>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 20, 430360, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 3fdc89a6-1266-4a31-bb11-faae4809add5, error: Invalid operation: operation
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+PID=23908 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Getting task: 3fdc89a6-1266-4a31-bb11-faae4809add5, result: Task(id='3fdc89a6-1266-4a31-bb11-faae4809add5', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9e120>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afd7f583c0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac98aa0>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 20, 430360, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 21, 680147, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation', description='')
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 6b474c76-e216-418b-840b-6c1241308a88, operation: operation
+DEBUG(root): Getting task: 6b474c76-e216-418b-840b-6c1241308a88, result: Task(id='6b474c76-e216-418b-840b-6c1241308a88', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdace41d0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac990d0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac98d60>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 21, 376548, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Cleaning up tasks older than 1 day, 0:00:00
+DEBUG(root): Removed old task: 6b474c76-e216-418b-840b-6c1241308a88
+DEBUG(root): Total tasks: 0
+DEBUG(root): Updating progress: 0/0
+DEBUG(root): Task statuses: []
+.
+
+TEST_EXECUTION_RESULT:passed:test_utility.test_tasks.TestFileActionsExecutor.test_cleanup_tasks:
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+PID=31236 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=31236 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x21908d63cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x2190ae7e660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x2190ae865d0>}
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 0496bd5a-ce9d-4782-aa1c-7e9c5634321b, operation: custom_operation
+DEBUG(root): Task completed callback for: 6b474c76-e216-418b-840b-6c1241308a88
+DEBUG(root): Getting task: 6b474c76-e216-418b-840b-6c1241308a88, result: None
+DEBUG(root): Task not found for completion: 6b474c76-e216-418b-840b-6c1241308a88
+PID=30248 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Task completed callback for: 0496bd5a-ce9d-4782-aa1c-7e9c5634321b
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Getting task: 0496bd5a-ce9d-4782-aa1c-7e9c5634321b, result: Task(id='0496bd5a-ce9d-4782-aa1c-7e9c5634321b', operation='custom_operation', args=(1, 2), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac99650>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac999c0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac99860>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 22, 334113, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 0496bd5a-ce9d-4782-aa1c-7e9c5634321b, error: Can't get local object 'TestFileActionsExecutor.test_custom_function.<locals>.custom_func'
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 0496bd5a-ce9d-4782-aa1c-7e9c5634321b, operation: custom_operation
+E
+
+TEST_EXECUTION_RESULT:failed:test_utility.test_tasks.TestFileActionsExecutor.test_custom_function:Y29uY3VycmVudC5mdXR1cmVzLnByb2Nlc3MuX1JlbW90ZVRyYWNlYmFjazogCiIiIgpUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6CiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccXVldWVzLnB5IiwgbGluZSAyNjIsIGluIF9mZWVkCiAgICBvYmogPSBfRm9ya2luZ1BpY2tsZXIuZHVtcHMob2JqKQogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHJlZHVjdGlvbi5weSIsIGxpbmUgNTEsIGluIGR1bXBzCiAgICBjbHMoYnVmLCBwcm90b2NvbCkuZHVtcChvYmopCiAgICB+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fl5eXl5eCkF0dHJpYnV0ZUVycm9yOiBDYW4ndCBnZXQgbG9jYWwgb2JqZWN0ICdUZXN0RmlsZUFjdGlvbnNFeGVjdXRvci50ZXN0X2N1c3RvbV9mdW5jdGlvbi48bG9jYWxzPi5jdXN0b21fZnVuYycKIiIiCgpUaGUgYWJvdmUgZXhjZXB0aW9uIHdhcyB0aGUgZGlyZWN0IGNhdXNlIG9mIHRoZSBmb2xsb3dpbmcgZXhjZXB0aW9uOgoKVHJhY2ViYWNrIChtb3N0IHJlY2VudCBjYWxsIGxhc3QpOgogIEZpbGUgImc6XEdpdEh1YlxQeUtvdG9yXHRlc3RzXHRlc3RfdXRpbGl0eVx0ZXN0X3Rhc2tzLnB5IiwgbGluZSAxNDgsIGluIHRlc3RfY3VzdG9tX2Z1bmN0aW9uCiAgICByZXN1bHQ6IGludCA9IGZ1dHVyZS5yZXN1bHQoKQogICAgICAgICAgICAgICAgICB+fn5+fn5+fn5+fn5+Xl4KICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXGNvbmN1cnJlbnRcZnV0dXJlc1xfYmFzZS5weSIsIGxpbmUgNDQ5LCBpbiByZXN1bHQKICAgIHJldHVybiBzZWxmLl9fZ2V0X3Jlc3VsdCgpCiAgICAgICAgICAgfn5+fn5+fn5+fn5+fn5+fn5eXgogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcY29uY3VycmVudFxmdXR1cmVzXF9iYXNlLnB5IiwgbGluZSA0MDEsIGluIF9fZ2V0X3Jlc3VsdAogICAgcmFpc2Ugc2VsZi5fZXhjZXB0aW9uCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccXVldWVzLnB5IiwgbGluZSAyNjIsIGluIF9mZWVkCiAgICBvYmogPSBfRm9ya2luZ1BpY2tsZXIuZHVtcHMob2JqKQogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHJlZHVjdGlvbi5weSIsIGxpbmUgNTEsIGluIGR1bXBzCiAgICBjbHMoYnVmLCBwcm90b2NvbCkuZHVtcChvYmopCiAgICB+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fl5eXl5eCkF0dHJpYnV0ZUVycm9yOiBDYW4ndCBnZXQgbG9jYWwgb2JqZWN0ICdUZXN0RmlsZUFjdGlvbnNFeGVjdXRvci50ZXN0X2N1c3RvbV9mdW5jdGlvbi48bG9jYWxzPi5jdXN0b21fZnVuYycK
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 15d7ce89-3f5d-440e-b8e6-6ee343b1ecbe, operation: operation
+DEBUG(root): Getting task: 6b474c76-e216-418b-840b-6c1241308a88, result: None
+PID=4008 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 15d7ce89-3f5d-440e-b8e6-6ee343b1ecbe, operation: operation
+DEBUG(root): Getting task: 15d7ce89-3f5d-440e-b8e6-6ee343b1ecbe, result: Task(id='15d7ce89-3f5d-440e-b8e6-6ee343b1ecbe', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac99860>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac997b0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac99a70>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 22, 865264, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+.
+
+TEST_EXECUTION_RESULT:passed:test_utility.test_tasks.TestFileActionsExecutor.test_get_task:
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 5a230d2e-79a9-469f-bab3-282ccab42e33, operation: operation
+PID=17684 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=17684 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x11a9be93cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x11a9df2e660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x11a9df365d0>}
+DEBUG(root): Task completed callback for: 15d7ce89-3f5d-440e-b8e6-6ee343b1ecbe
+DEBUG(root): Getting task: 15d7ce89-3f5d-440e-b8e6-6ee343b1ecbe, result: Task(id='15d7ce89-3f5d-440e-b8e6-6ee343b1ecbe', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac99de0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a0a0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a150>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 22, 865264, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 15d7ce89-3f5d-440e-b8e6-6ee343b1ecbe, error: Invalid operation: operation
+PID=33192 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 5a230d2e-79a9-469f-bab3-282ccab42e33, operation: operation
+DEBUG(root): Getting task details for: 5a230d2e-79a9-469f-bab3-282ccab42e33
+DEBUG(root): Getting task: 5a230d2e-79a9-469f-bab3-282ccab42e33, result: Task(id='5a230d2e-79a9-469f-bab3-282ccab42e33', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac99860>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a0a0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac99d30>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 23, 359720, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task details retrieved: TaskDetails(id='5a230d2e-79a9-469f-bab3-282ccab42e33', operation='operation', status='PENDING', progress=0.0, priority=0, start_time='2025-11-09T00:16:23.359720-06:00', end_time=None, description='', error=None, result=None)
+.
+
+TEST_EXECUTION_RESULT:passed:test_utility.test_tasks.TestFileActionsExecutor.test_get_task_details:
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Getting task: 0496bd5a-ce9d-4782-aa1c-7e9c5634321b, result: Task(id='0496bd5a-ce9d-4782-aa1c-7e9c5634321b', operation='custom_operation', args=(1, 2), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac99e90>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac99860>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a0a0>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 22, 334113, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 22, 652861, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error="Can't get local object 'TestFileActionsExecutor.test_custom_function.<locals>.custom_func'", description='')
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f, operation: operation
+DEBUG(root): Getting task: 6b474c76-e216-418b-840b-6c1241308a88, result: None
+PID=31440 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=31440 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x224e1713cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x224e383e660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x224e38465d0>}
+DEBUG(root): Task completed callback for: 5a230d2e-79a9-469f-bab3-282ccab42e33
+DEBUG(root): Getting task: 5a230d2e-79a9-469f-bab3-282ccab42e33, result: Task(id='5a230d2e-79a9-469f-bab3-282ccab42e33', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9a6d0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac99e90>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a150>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 23, 359720, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 5a230d2e-79a9-469f-bab3-282ccab42e33, error: Invalid operation: operation
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']PID=31788 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f, operation: operation
+DEBUG(root): Getting task: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f, result: Task(id='12e7b428-eccb-4eab-8824-3f2aa4bcaa1f', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac99b20>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a2b0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a570>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 23, 815333, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Attempting to pause task: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f
+DEBUG(root): Getting task: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f, result: Task(id='12e7b428-eccb-4eab-8824-3f2aa4bcaa1f', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9a6d0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9aa40>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a200>}, status=<TaskStatus.RUNNING: 2>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 23, 815333, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task paused: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f
+DEBUG(root): Getting task: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f, result: Task(id='12e7b428-eccb-4eab-8824-3f2aa4bcaa1f', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac99e90>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a6d0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9aa40>}, status=<TaskStatus.PAUSED: 3>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 23, 815333, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Attempting to resume task: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f
+DEBUG(root): Getting task: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f, result: Task(id='12e7b428-eccb-4eab-8824-3f2aa4bcaa1f', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9a0a0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9aba0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9aaf0>}, status=<TaskStatus.PAUSED: 3>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 23, 815333, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task resumed: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f
+DEBUG(root): Getting task: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f, result: Task(id='12e7b428-eccb-4eab-8824-3f2aa4bcaa1f', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9a620>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a0a0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9aba0>}, status=<TaskStatus.RUNNING: 2>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 23, 815333, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+.
+
+TEST_EXECUTION_RESULT:passed:test_utility.test_tasks.TestFileActionsExecutor.test_pause_resume_task:
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Getting task: 15d7ce89-3f5d-440e-b8e6-6ee343b1ecbe, result: Task(id='15d7ce89-3f5d-440e-b8e6-6ee343b1ecbe', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac98d60>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a620>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a0a0>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 22, 865264, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 23, 595358, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation', description='')
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 06684557-426a-4bb8-9c5f-bf8357174bd5, operation: operation
+PID=9652 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=9652 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x248b12d3cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x248b33ae660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x248b33b65d0>}
+DEBUG(root): Task completed callback for: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f
+DEBUG(root): Getting task: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f, result: Task(id='12e7b428-eccb-4eab-8824-3f2aa4bcaa1f', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9a360>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a620>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac98d60>}, status=<TaskStatus.RUNNING: 2>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 23, 815333, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f, error: Invalid operation: operation
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+PID=35160 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 06684557-426a-4bb8-9c5f-bf8357174bd5, operation: operation
+DEBUG(root): Getting task: 06684557-426a-4bb8-9c5f-bf8357174bd5, result: Task(id='06684557-426a-4bb8-9c5f-bf8357174bd5', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac99bd0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a200>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9af10>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 24, 319629, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+.
+
+TEST_EXECUTION_RESULT:passed:test_utility.test_tasks.TestFileActionsExecutor.test_pickleable_task:
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Getting task: 5a230d2e-79a9-469f-bab3-282ccab42e33, result: Task(id='5a230d2e-79a9-469f-bab3-282ccab42e33', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac99de0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac98d60>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a4c0>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 23, 359720, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 24, 51425, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation', description='')
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: b664113f-cafd-4cde-aa7c-e7536a31c080, operation: operation
+PID=36072 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=36072 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1c233653cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1c2357ce660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1c2357d65d0>}
+DEBUG(root): Task completed callback for: 06684557-426a-4bb8-9c5f-bf8357174bd5
+DEBUG(root): Getting task: 06684557-426a-4bb8-9c5f-bf8357174bd5, result: Task(id='06684557-426a-4bb8-9c5f-bf8357174bd5', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9a780>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac98d60>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac99de0>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 24, 319629, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 06684557-426a-4bb8-9c5f-bf8357174bd5, error: Invalid operation: operation
+DEBUG(root): Getting task: 6b474c76-e216-418b-840b-6c1241308a88, result: None
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+PID=18636 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: b664113f-cafd-4cde-aa7c-e7536a31c080, operation: operation
+.
+
+TEST_EXECUTION_RESULT:passed:test_utility.test_tasks.TestFileActionsExecutor.test_queue_task:
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Getting task: 12e7b428-eccb-4eab-8824-3f2aa4bcaa1f, result: Task(id='12e7b428-eccb-4eab-8824-3f2aa4bcaa1f', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9a8e0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9afc0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a620>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 23, 815333, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 24, 509252, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation', description='')
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: b445ea5a-e1ab-4f99-b2e2-fcd2719453b1, operation: custom_operation
+PID=30868 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Task completed callback for: b445ea5a-e1ab-4f99-b2e2-fcd2719453b1
+DEBUG(root): Getting task: b445ea5a-e1ab-4f99-b2e2-fcd2719453b1, result: Task(id='b445ea5a-e1ab-4f99-b2e2-fcd2719453b1', operation='custom_operation', args=(1, 2), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac99440>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9b3e0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9b490>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 25, 203605, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Total tasks: 1
+DEBUG(root): Task failed: b445ea5a-e1ab-4f99-b2e2-fcd2719453b1, error: Can't get local object 'TestFileActionsExecutor.test_queue_task_with_custom_function.<locals>.custom_func'
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Total tasks: 1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task queued: b445ea5a-e1ab-4f99-b2e2-fcd2719453b1, operation: custom_operation
+E
+
+TEST_EXECUTION_RESULT:failed:test_utility.test_tasks.TestFileActionsExecutor.test_queue_task_with_custom_function:Y29uY3VycmVudC5mdXR1cmVzLnByb2Nlc3MuX1JlbW90ZVRyYWNlYmFjazogCiIiIgpUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6CiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccXVldWVzLnB5IiwgbGluZSAyNjIsIGluIF9mZWVkCiAgICBvYmogPSBfRm9ya2luZ1BpY2tsZXIuZHVtcHMob2JqKQogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHJlZHVjdGlvbi5weSIsIGxpbmUgNTEsIGluIGR1bXBzCiAgICBjbHMoYnVmLCBwcm90b2NvbCkuZHVtcChvYmopCiAgICB+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fl5eXl5eCkF0dHJpYnV0ZUVycm9yOiBDYW4ndCBnZXQgbG9jYWwgb2JqZWN0ICdUZXN0RmlsZUFjdGlvbnNFeGVjdXRvci50ZXN0X3F1ZXVlX3Rhc2tfd2l0aF9jdXN0b21fZnVuY3Rpb24uPGxvY2Fscz4uY3VzdG9tX2Z1bmMnCiIiIgoKVGhlIGFib3ZlIGV4Y2VwdGlvbiB3YXMgdGhlIGRpcmVjdCBjYXVzZSBvZiB0aGUgZm9sbG93aW5nIGV4Y2VwdGlvbjoKClRyYWNlYmFjayAobW9zdCByZWNlbnQgY2FsbCBsYXN0KToKICBGaWxlICJnOlxHaXRIdWJcUHlLb3Rvclx0ZXN0c1x0ZXN0X3V0aWxpdHlcdGVzdF90YXNrcy5weSIsIGxpbmUgNDIsIGluIHRlc3RfcXVldWVfdGFza193aXRoX2N1c3RvbV9mdW5jdGlvbgogICAgcmVzdWx0OiBpbnQgPSBmdXR1cmUucmVzdWx0KCkKICAgICAgICAgICAgICAgICAgfn5+fn5+fn5+fn5+fl5eCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxjb25jdXJyZW50XGZ1dHVyZXNcX2Jhc2UucHkiLCBsaW5lIDQ0OSwgaW4gcmVzdWx0CiAgICByZXR1cm4gc2VsZi5fX2dldF9yZXN1bHQoKQogICAgICAgICAgIH5+fn5+fn5+fn5+fn5+fn5+Xl4KICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXGNvbmN1cnJlbnRcZnV0dXJlc1xfYmFzZS5weSIsIGxpbmUgNDAxLCBpbiBfX2dldF9yZXN1bHQKICAgIHJhaXNlIHNlbGYuX2V4Y2VwdGlvbgogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHF1ZXVlcy5weSIsIGxpbmUgMjYyLCBpbiBfZmVlZAogICAgb2JqID0gX0ZvcmtpbmdQaWNrbGVyLmR1bXBzKG9iaikKICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXG11bHRpcHJvY2Vzc2luZ1xyZWR1Y3Rpb24ucHkiLCBsaW5lIDUxLCBpbiBkdW1wcwogICAgY2xzKGJ1ZiwgcHJvdG9jb2wpLmR1bXAob2JqKQogICAgfn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5eXl5eXgpBdHRyaWJ1dGVFcnJvcjogQ2FuJ3QgZ2V0IGxvY2FsIG9iamVjdCAnVGVzdEZpbGVBY3Rpb25zRXhlY3V0b3IudGVzdF9xdWV1ZV90YXNrX3dpdGhfY3VzdG9tX2Z1bmN0aW9uLjxsb2NhbHM+LmN1c3RvbV9mdW5jJwo=
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+PID=31380 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=31380 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x22aa2df3cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x22aa4f1e660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x22aa4f265d0>}
+DEBUG(root): Task completed callback for: b664113f-cafd-4cde-aa7c-e7536a31c080
+DEBUG(root): Getting task: b664113f-cafd-4cde-aa7c-e7536a31c080, result: Task(id='b664113f-cafd-4cde-aa7c-e7536a31c080', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac99de0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9ad00>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac99b20>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 24, 781311, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: b664113f-cafd-4cde-aa7c-e7536a31c080, error: Invalid operation: operation
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): Getting task: 06684557-426a-4bb8-9c5f-bf8357174bd5, result: Task(id='06684557-426a-4bb8-9c5f-bf8357174bd5', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9a6d0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac99b20>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9a780>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 24, 319629, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 24, 997517, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation', description='')
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: bffa5cfc-a527-407f-9bcb-847c1d3c9979, operation: operation
+PID=31000 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: bffa5cfc-a527-407f-9bcb-847c1d3c9979, operation: operation
+DEBUG(root): Getting task: bffa5cfc-a527-407f-9bcb-847c1d3c9979, result: Task(id='bffa5cfc-a527-407f-9bcb-847c1d3c9979', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9aba0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9b490>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac99440>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 25, 644854, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Attempting to retry task: bffa5cfc-a527-407f-9bcb-847c1d3c9979
+DEBUG(root): Getting task: bffa5cfc-a527-407f-9bcb-847c1d3c9979, result: Task(id='bffa5cfc-a527-407f-9bcb-847c1d3c9979', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9b750>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9b6a0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9af10>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 25, 644854, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Queueing task: 10834f64-1cea-4f62-9a93-87d72b109cf5, operation: operation
+DEBUG(root): Total tasks: 2
+DEBUG(root): Updating progress: 1/2
+DEBUG(root): Task statuses: ['FAILED', 'PENDING']
+DEBUG(root): Task queued: 10834f64-1cea-4f62-9a93-87d72b109cf5, operation: operation
+DEBUG(root): Task retried: bffa5cfc-a527-407f-9bcb-847c1d3c9979, new task id: 10834f64-1cea-4f62-9a93-87d72b109cf5
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+.
+
+TEST_EXECUTION_RESULT:passed:test_utility.test_tasks.TestFileActionsExecutor.test_retry_task:
+
+DEBUG(root): Getting task: 6b474c76-e216-418b-840b-6c1241308a88, result: None
+DEBUG(root): Getting task: b664113f-cafd-4cde-aa7c-e7536a31c080, result: Task(id='b664113f-cafd-4cde-aa7c-e7536a31c080', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac98d60>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9b1d0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9aba0>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 24, 781311, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 25, 586427, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation', description='')
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: a3d53fd8-db5c-4cd6-b56a-4520ce3f6665, operation: custom_operation
+PID=36432 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=36432 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x227fb4c3cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x227fd5fe660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x227fd6065d0>}
+DEBUG(root): Task completed callback for: bffa5cfc-a527-407f-9bcb-847c1d3c9979
+DEBUG(root): Getting task: bffa5cfc-a527-407f-9bcb-847c1d3c9979, result: None
+DEBUG(root): Task not found for completion: bffa5cfc-a527-407f-9bcb-847c1d3c9979
+PID=30848 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=30848 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x17edc993cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x17edeb4e660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x17edeb565d0>}
+DEBUG(root): Task completed callback for: 10834f64-1cea-4f62-9a93-87d72b109cf5
+DEBUG(root): Getting task: 10834f64-1cea-4f62-9a93-87d72b109cf5, result: Task(id='10834f64-1cea-4f62-9a93-87d72b109cf5', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9aa40>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9b3e0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9ad00>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 25, 918759, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 10834f64-1cea-4f62-9a93-87d72b109cf5, error: Invalid operation: operation
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+PID=30620 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Task completed callback for: a3d53fd8-db5c-4cd6-b56a-4520ce3f6665
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Getting task: a3d53fd8-db5c-4cd6-b56a-4520ce3f6665, result: Task(id='a3d53fd8-db5c-4cd6-b56a-4520ce3f6665', operation='custom_operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad48310>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9aa40>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9bc20>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 26, 105404, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: a3d53fd8-db5c-4cd6-b56a-4520ce3f6665, error: Can't get local object 'TestFileActionsExecutor.test_task_cancel_flag.<locals>.custom_func'
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: a3d53fd8-db5c-4cd6-b56a-4520ce3f6665, operation: custom_operation
+DEBUG(root): Attempting to cancel task: a3d53fd8-db5c-4cd6-b56a-4520ce3f6665
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Getting task: a3d53fd8-db5c-4cd6-b56a-4520ce3f6665, result: Task(id='a3d53fd8-db5c-4cd6-b56a-4520ce3f6665', operation='custom_operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac99440>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9b800>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48050>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 26, 105404, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 26, 383693, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error="Can't get local object 'TestFileActionsExecutor.test_task_cancel_flag.<locals>.custom_func'", description='')
+DEBUG(root): Unable to cancel task: a3d53fd8-db5c-4cd6-b56a-4520ce3f6665
+DEBUG(root): Task statuses: ['FAILED']
+E
+
+TEST_EXECUTION_RESULT:failed:test_utility.test_tasks.TestFileActionsExecutor.test_task_cancel_flag:Y29uY3VycmVudC5mdXR1cmVzLnByb2Nlc3MuX1JlbW90ZVRyYWNlYmFjazogCiIiIgpUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6CiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccXVldWVzLnB5IiwgbGluZSAyNjIsIGluIF9mZWVkCiAgICBvYmogPSBfRm9ya2luZ1BpY2tsZXIuZHVtcHMob2JqKQogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHJlZHVjdGlvbi5weSIsIGxpbmUgNTEsIGluIGR1bXBzCiAgICBjbHMoYnVmLCBwcm90b2NvbCkuZHVtcChvYmopCiAgICB+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fl5eXl5eCkF0dHJpYnV0ZUVycm9yOiBDYW4ndCBnZXQgbG9jYWwgb2JqZWN0ICdUZXN0RmlsZUFjdGlvbnNFeGVjdXRvci50ZXN0X3Rhc2tfY2FuY2VsX2ZsYWcuPGxvY2Fscz4uY3VzdG9tX2Z1bmMnCiIiIgoKVGhlIGFib3ZlIGV4Y2VwdGlvbiB3YXMgdGhlIGRpcmVjdCBjYXVzZSBvZiB0aGUgZm9sbG93aW5nIGV4Y2VwdGlvbjoKClRyYWNlYmFjayAobW9zdCByZWNlbnQgY2FsbCBsYXN0KToKICBGaWxlICJnOlxHaXRIdWJcUHlLb3Rvclx0ZXN0c1x0ZXN0X3V0aWxpdHlcdGVzdF90YXNrcy5weSIsIGxpbmUgMjc4LCBpbiB0ZXN0X3Rhc2tfY2FuY2VsX2ZsYWcKICAgIHJlc3VsdDogaW50ID0gZnV0dXJlLnJlc3VsdCgpCiAgICAgICAgICAgICAgICAgIH5+fn5+fn5+fn5+fn5eXgogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcY29uY3VycmVudFxmdXR1cmVzXF9iYXNlLnB5IiwgbGluZSA0NDksIGluIHJlc3VsdAogICAgcmV0dXJuIHNlbGYuX19nZXRfcmVzdWx0KCkKICAgICAgICAgICB+fn5+fn5+fn5+fn5+fn5+fl5eCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxjb25jdXJyZW50XGZ1dHVyZXNcX2Jhc2UucHkiLCBsaW5lIDQwMSwgaW4gX19nZXRfcmVzdWx0CiAgICByYWlzZSBzZWxmLl9leGNlcHRpb24KICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXG11bHRpcHJvY2Vzc2luZ1xxdWV1ZXMucHkiLCBsaW5lIDI2MiwgaW4gX2ZlZWQKICAgIG9iaiA9IF9Gb3JraW5nUGlja2xlci5kdW1wcyhvYmopCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccmVkdWN0aW9uLnB5IiwgbGluZSA1MSwgaW4gZHVtcHMKICAgIGNscyhidWYsIHByb3RvY29sKS5kdW1wKG9iaikKICAgIH5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+Xl5eXl4KQXR0cmlidXRlRXJyb3I6IENhbid0IGdldCBsb2NhbCBvYmplY3QgJ1Rlc3RGaWxlQWN0aW9uc0V4ZWN1dG9yLnRlc3RfdGFza19jYW5jZWxfZmxhZy48bG9jYWxzPi5jdXN0b21fZnVuYycK
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): Getting task: b445ea5a-e1ab-4f99-b2e2-fcd2719453b1, result: Task(id='b445ea5a-e1ab-4f99-b2e2-fcd2719453b1', operation='custom_operation', args=(1, 2), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9a8e0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9bc20>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac98d60>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 25, 203605, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 25, 476573, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error="Can't get local object 'TestFileActionsExecutor.test_queue_task_with_custom_function.<locals>.custom_func'", description='')
+DEBUG(root): FileActionsExecutor initialized
+E
+
+TEST_EXECUTION_RESULT:failed:test_utility.test_tasks.TestFileActionsExecutor.test_task_completed:VHJhY2ViYWNrIChtb3N0IHJlY2VudCBjYWxsIGxhc3QpOgogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcdW5pdHRlc3RcbW9jay5weSIsIGxpbmUgMTQyMywgaW4gcGF0Y2hlZAogICAgd2l0aCBzZWxmLmRlY29yYXRpb25faGVscGVyKHBhdGNoZWQsCiAgICAgICAgIH5+fn5+fn5+fn5+fn5+fn5+fn5+fn5eXl5eXl5eXl4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcmdzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF5eXl5eCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5d2FyZ3MpIGFzIChuZXdhcmdzLCBuZXdrZXl3YXJncyk6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXl5eXl5eXl5eCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxjb250ZXh0bGliLnB5IiwgbGluZSAxNDEsIGluIF9fZW50ZXJfXwogICAgcmV0dXJuIG5leHQoc2VsZi5nZW4pCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlx1bml0dGVzdFxtb2NrLnB5IiwgbGluZSAxNDA1LCBpbiBkZWNvcmF0aW9uX2hlbHBlcgogICAgYXJnID0gZXhpdF9zdGFjay5lbnRlcl9jb250ZXh0KHBhdGNoaW5nKQogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcY29udGV4dGxpYi5weSIsIGxpbmUgNTMwLCBpbiBlbnRlcl9jb250ZXh0CiAgICByZXN1bHQgPSBfZW50ZXIoY20pCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlx1bml0dGVzdFxtb2NrLnB5IiwgbGluZSAxNDgxLCBpbiBfX2VudGVyX18KICAgIHNlbGYudGFyZ2V0ID0gc2VsZi5nZXR0ZXIoKQogICAgICAgICAgICAgICAgICB+fn5+fn5+fn5+fl5eCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxwa2d1dGlsLnB5IiwgbGluZSA1MTMsIGluIHJlc29sdmVfbmFtZQogICAgbW9kID0gaW1wb3J0bGliLmltcG9ydF9tb2R1bGUobW9kbmFtZSkKICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXGltcG9ydGxpYlxfX2luaXRfXy5weSIsIGxpbmUgODgsIGluIGltcG9ydF9tb2R1bGUKICAgIHJldHVybiBfYm9vdHN0cmFwLl9nY2RfaW1wb3J0KG5hbWVbbGV2ZWw6XSwgcGFja2FnZSwgbGV2ZWwpCiAgICAgICAgICAgfn5+fn5+fn5+fn5+fn5+fn5+fn5+fl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXgogIEZpbGUgIjxmcm96ZW4gaW1wb3J0bGliLl9ib290c3RyYXA+IiwgbGluZSAxMzg3LCBpbiBfZ2NkX2ltcG9ydAogIEZpbGUgIjxmcm96ZW4gaW1wb3J0bGliLl9ib290c3RyYXA+IiwgbGluZSAxMzYwLCBpbiBfZmluZF9hbmRfbG9hZAogIEZpbGUgIjxmcm96ZW4gaW1wb3J0bGliLl9ib290c3RyYXA+IiwgbGluZSAxMzI0LCBpbiBfZmluZF9hbmRfbG9hZF91bmxvY2tlZApNb2R1bGVOb3RGb3VuZEVycm9yOiBObyBtb2R1bGUgbmFtZWQgJ0ZpbGVBY3Rpb25zRXhlY3V0b3InCg==
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 43485196-bf6b-4a92-8741-99470a1097ee, operation: operation
+DEBUG(root): Getting task: bffa5cfc-a527-407f-9bcb-847c1d3c9979, result: None
+PID=29080 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Getting task: 10834f64-1cea-4f62-9a93-87d72b109cf5, result: Task(id='10834f64-1cea-4f62-9a93-87d72b109cf5', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9bee0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad483c0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad481b0>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 25, 918759, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 26, 349609, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation', description='')
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 43485196-bf6b-4a92-8741-99470a1097ee, operation: operation
+DEBUG(root): Getting task: 43485196-bf6b-4a92-8741-99470a1097ee, result: Task(id='43485196-bf6b-4a92-8741-99470a1097ee', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9bc20>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9bac0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9ba10>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 26, 710737, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='Test task')
+.
+
+TEST_EXECUTION_RESULT:passed:test_utility.test_tasks.TestFileActionsExecutor.test_task_description:
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Getting task: 6b474c76-e216-418b-840b-6c1241308a88, result: None
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 332f7b4e-5c57-4088-a07d-72ae6fb349db, operation: operation
+PID=34712 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=34712 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x159d3443cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x159d55ce660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x159d55d65d0>}
+DEBUG(root): Task completed callback for: 43485196-bf6b-4a92-8741-99470a1097ee
+DEBUG(root): Getting task: 43485196-bf6b-4a92-8741-99470a1097ee, result: Task(id='43485196-bf6b-4a92-8741-99470a1097ee', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9b6a0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48520>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48680>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 26, 710737, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='Test task')
+DEBUG(root): Task failed: 43485196-bf6b-4a92-8741-99470a1097ee, error: Invalid operation: operation
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+PID=34012 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 332f7b4e-5c57-4088-a07d-72ae6fb349db, operation: operation
+DEBUG(root): Getting task: a3d53fd8-db5c-4cd6-b56a-4520ce3f6665, result: Task(id='a3d53fd8-db5c-4cd6-b56a-4520ce3f6665', operation='custom_operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9b3e0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48680>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48310>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 26, 105404, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 26, 383693, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error="Can't get local object 'TestFileActionsExecutor.test_task_cancel_flag.<locals>.custom_func'", description='')
+PID=20084 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=20084 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x269e7bb3cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x269e9cbe660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x269e9cc65d0>}
+DEBUG(root): Task completed callback for: 332f7b4e-5c57-4088-a07d-72ae6fb349db
+E
+
+TEST_EXECUTION_RESULT:failed:test_utility.test_tasks.TestFileActionsExecutor.test_task_end_time:Y29uY3VycmVudC5mdXR1cmVzLnByb2Nlc3MuX1JlbW90ZVRyYWNlYmFjazogCiIiIgpUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6CiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxjb25jdXJyZW50XGZ1dHVyZXNccHJvY2Vzcy5weSIsIGxpbmUgMjU0LCBpbiBfcHJvY2Vzc193b3JrZXIKICAgIHIgPSBjYWxsX2l0ZW0uZm4oKmNhbGxfaXRlbS5hcmdzLCAqKmNhbGxfaXRlbS5rd2FyZ3MpCiAgRmlsZSAiRzpcR2l0SHViL1B5S290b3IvTGlicmFyaWVzL1B5S290b3Ivc3JjXHV0aWxpdHlcdWlfbGlicmFyaWVzXHF0XGNvbW1vblx0YXNrc1xhY3Rpb25zX2V4ZWN1dG9yLnB5IiwgbGluZSAxOTAsIGluIF9leGVjdXRlX3Rhc2sKICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJJbnZhbGlkIG9wZXJhdGlvbjoge29wZXJhdGlvbn0iKQpWYWx1ZUVycm9yOiBJbnZhbGlkIG9wZXJhdGlvbjogb3BlcmF0aW9uCiIiIgoKVGhlIGFib3ZlIGV4Y2VwdGlvbiB3YXMgdGhlIGRpcmVjdCBjYXVzZSBvZiB0aGUgZm9sbG93aW5nIGV4Y2VwdGlvbjoKClRyYWNlYmFjayAobW9zdCByZWNlbnQgY2FsbCBsYXN0KToKICBGaWxlICJnOlxHaXRIdWJcUHlLb3Rvclx0ZXN0c1x0ZXN0X3V0aWxpdHlcdGVzdF90YXNrcy5weSIsIGxpbmUgMjMzLCBpbiB0ZXN0X3Rhc2tfZW5kX3RpbWUKICAgIGZ1dHVyZS5yZXN1bHQoKQogICAgfn5+fn5+fn5+fn5+fl5eCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxjb25jdXJyZW50XGZ1dHVyZXNcX2Jhc2UucHkiLCBsaW5lIDQ1NiwgaW4gcmVzdWx0CiAgICByZXR1cm4gc2VsZi5fX2dldF9yZXN1bHQoKQogICAgICAgICAgIH5+fn5+fn5+fn5+fn5+fn5+Xl4KICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXGNvbmN1cnJlbnRcZnV0dXJlc1xfYmFzZS5weSIsIGxpbmUgNDAxLCBpbiBfX2dldF9yZXN1bHQKICAgIHJhaXNlIHNlbGYuX2V4Y2VwdGlvbgpWYWx1ZUVycm9yOiBJbnZhbGlkIG9wZXJhdGlvbjogb3BlcmF0aW9uCg==
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Getting task: 332f7b4e-5c57-4088-a07d-72ae6fb349db, result: Task(id='332f7b4e-5c57-4088-a07d-72ae6fb349db', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9b280>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9af10>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48260>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 27, 131657, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 332f7b4e-5c57-4088-a07d-72ae6fb349db, error: Invalid operation: operation
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): Getting task: bffa5cfc-a527-407f-9bcb-847c1d3c9979, result: None
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 4ca77c8b-4007-4cc6-8a35-068dfa726aa6, operation: custom_operation
+DEBUG(root): Getting task: 43485196-bf6b-4a92-8741-99470a1097ee, result: Task(id='43485196-bf6b-4a92-8741-99470a1097ee', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdac9bee0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48890>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48470>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 26, 710737, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 27, 342749, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation', description='Test task')
+DEBUG(root): Getting task: 6b474c76-e216-418b-840b-6c1241308a88, result: None
+PID=31820 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Task completed callback for: 4ca77c8b-4007-4cc6-8a35-068dfa726aa6
+DEBUG(root): Getting task: 4ca77c8b-4007-4cc6-8a35-068dfa726aa6, result: Task(id='4ca77c8b-4007-4cc6-8a35-068dfa726aa6', operation='custom_operation', args=(1, 2), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad48260>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48aa0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad489f0>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 27, 941880, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Total tasks: 1
+DEBUG(root): Task failed: 4ca77c8b-4007-4cc6-8a35-068dfa726aa6, error: Can't get local object 'TestFileActionsExecutor.test_task_error.<locals>.custom_func'
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): Task queued: 4ca77c8b-4007-4cc6-8a35-068dfa726aa6, operation: custom_operation
+DEBUG(root): Updating progress: 1/1
+E
+
+TEST_EXECUTION_RESULT:failed:test_utility.test_tasks.TestFileActionsExecutor.test_task_error:VHJhY2ViYWNrIChtb3N0IHJlY2VudCBjYWxsIGxhc3QpOgogIEZpbGUgImc6XEdpdEh1YlxQeUtvdG9yXHRlc3RzXHRlc3RfdXRpbGl0eVx0ZXN0X3Rhc2tzLnB5IiwgbGluZSAxOTAsIGluIHRlc3RfdGFza19lcnJvcgogICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IpOgogICAgICAgICBeXl5eXl4KTmFtZUVycm9yOiBuYW1lICdweXRlc3QnIGlzIG5vdCBkZWZpbmVkLiBEaWQgeW91IG1lYW46ICdieXRlcyc/Cg==
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 852c9102-cb6a-4a87-9da0-90994fe450db, operation: custom_operation
+DEBUG(root): Getting task: 332f7b4e-5c57-4088-a07d-72ae6fb349db, result: Task(id='332f7b4e-5c57-4088-a07d-72ae6fb349db', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad48730>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48c00>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48940>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 27, 131657, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 27, 784793, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation', description='')
+PID=33988 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Task completed callback for: 852c9102-cb6a-4a87-9da0-90994fe450db
+DEBUG(root): Getting task: 852c9102-cb6a-4a87-9da0-90994fe450db, result: Task(id='852c9102-cb6a-4a87-9da0-90994fe450db', operation='custom_operation', args=(1, 2), kwargs={'c': 3, 'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad48c00>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48e10>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48d60>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 28, 394386, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 852c9102-cb6a-4a87-9da0-90994fe450db, error: Can't get local object 'TestFileActionsExecutor.test_task_kwargs.<locals>.custom_func'
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Task queued: 852c9102-cb6a-4a87-9da0-90994fe450db, operation: custom_operation
+E
+
+TEST_EXECUTION_RESULT:failed:test_utility.test_tasks.TestFileActionsExecutor.test_task_kwargs:Y29uY3VycmVudC5mdXR1cmVzLnByb2Nlc3MuX1JlbW90ZVRyYWNlYmFjazogCiIiIgpUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6CiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccXVldWVzLnB5IiwgbGluZSAyNjIsIGluIF9mZWVkCiAgICBvYmogPSBfRm9ya2luZ1BpY2tsZXIuZHVtcHMob2JqKQogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHJlZHVjdGlvbi5weSIsIGxpbmUgNTEsIGluIGR1bXBzCiAgICBjbHMoYnVmLCBwcm90b2NvbCkuZHVtcChvYmopCiAgICB+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fl5eXl5eCkF0dHJpYnV0ZUVycm9yOiBDYW4ndCBnZXQgbG9jYWwgb2JqZWN0ICdUZXN0RmlsZUFjdGlvbnNFeGVjdXRvci50ZXN0X3Rhc2tfa3dhcmdzLjxsb2NhbHM+LmN1c3RvbV9mdW5jJwoiIiIKClRoZSBhYm92ZSBleGNlcHRpb24gd2FzIHRoZSBkaXJlY3QgY2F1c2Ugb2YgdGhlIGZvbGxvd2luZyBleGNlcHRpb246CgpUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6CiAgRmlsZSAiZzpcR2l0SHViXFB5S290b3JcdGVzdHNcdGVzdF91dGlsaXR5XHRlc3RfdGFza3MucHkiLCBsaW5lIDI1MCwgaW4gdGVzdF90YXNrX2t3YXJncwogICAgcmVzdWx0OiBpbnQgPSBmdXR1cmUucmVzdWx0KCkKICAgICAgICAgICAgICAgICAgfn5+fn5+fn5+fn5+fl5eCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxjb25jdXJyZW50XGZ1dHVyZXNcX2Jhc2UucHkiLCBsaW5lIDQ0OSwgaW4gcmVzdWx0CiAgICByZXR1cm4gc2VsZi5fX2dldF9yZXN1bHQoKQogICAgICAgICAgIH5+fn5+fn5+fn5+fn5+fn5+Xl4KICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXGNvbmN1cnJlbnRcZnV0dXJlc1xfYmFzZS5weSIsIGxpbmUgNDAxLCBpbiBfX2dldF9yZXN1bHQKICAgIHJhaXNlIHNlbGYuX2V4Y2VwdGlvbgogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHF1ZXVlcy5weSIsIGxpbmUgMjYyLCBpbiBfZmVlZAogICAgb2JqID0gX0ZvcmtpbmdQaWNrbGVyLmR1bXBzKG9iaikKICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXG11bHRpcHJvY2Vzc2luZ1xyZWR1Y3Rpb24ucHkiLCBsaW5lIDUxLCBpbiBkdW1wcwogICAgY2xzKGJ1ZiwgcHJvdG9jb2wpLmR1bXAob2JqKQogICAgfn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5eXl5eXgpBdHRyaWJ1dGVFcnJvcjogQ2FuJ3QgZ2V0IGxvY2FsIG9iamVjdCAnVGVzdEZpbGVBY3Rpb25zRXhlY3V0b3IudGVzdF90YXNrX2t3YXJncy48bG9jYWxzPi5jdXN0b21fZnVuYycK
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 38f272e9-4608-47cb-bff3-4709eb18dec4, operation: custom_operation
+DEBUG(root): Getting task: bffa5cfc-a527-407f-9bcb-847c1d3c9979, result: None
+DEBUG(root): Getting task: 6b474c76-e216-418b-840b-6c1241308a88, result: None
+PID=29856 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Task completed callback for: 38f272e9-4608-47cb-bff3-4709eb18dec4
+DEBUG(root): Total tasks: 1
+DEBUG(root): Getting task: 38f272e9-4608-47cb-bff3-4709eb18dec4, result: Task(id='38f272e9-4608-47cb-bff3-4709eb18dec4', operation='custom_operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad48aa0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad481b0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad495a0>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 28, 835616, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task failed: 38f272e9-4608-47cb-bff3-4709eb18dec4, error: Can't get local object 'TestFileActionsExecutor.test_task_pause_flag.<locals>.custom_func'
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task queued: 38f272e9-4608-47cb-bff3-4709eb18dec4, operation: custom_operation
+DEBUG(root): Attempting to pause task: 38f272e9-4608-47cb-bff3-4709eb18dec4
+DEBUG(root): Getting task: 38f272e9-4608-47cb-bff3-4709eb18dec4, result: Task(id='38f272e9-4608-47cb-bff3-4709eb18dec4', operation='custom_operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad49390>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad487e0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad49b20>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 28, 835616, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 29, 109882, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error="Can't get local object 'TestFileActionsExecutor.test_task_pause_flag.<locals>.custom_func'", description='')
+DEBUG(root): Unable to pause task: 38f272e9-4608-47cb-bff3-4709eb18dec4
+DEBUG(root): Task statuses: ['FAILED']
+E
+
+TEST_EXECUTION_RESULT:failed:test_utility.test_tasks.TestFileActionsExecutor.test_task_pause_flag:Y29uY3VycmVudC5mdXR1cmVzLnByb2Nlc3MuX1JlbW90ZVRyYWNlYmFjazogCiIiIgpUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6CiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccXVldWVzLnB5IiwgbGluZSAyNjIsIGluIF9mZWVkCiAgICBvYmogPSBfRm9ya2luZ1BpY2tsZXIuZHVtcHMob2JqKQogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHJlZHVjdGlvbi5weSIsIGxpbmUgNTEsIGluIGR1bXBzCiAgICBjbHMoYnVmLCBwcm90b2NvbCkuZHVtcChvYmopCiAgICB+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fl5eXl5eCkF0dHJpYnV0ZUVycm9yOiBDYW4ndCBnZXQgbG9jYWwgb2JqZWN0ICdUZXN0RmlsZUFjdGlvbnNFeGVjdXRvci50ZXN0X3Rhc2tfcGF1c2VfZmxhZy48bG9jYWxzPi5jdXN0b21fZnVuYycKIiIiCgpUaGUgYWJvdmUgZXhjZXB0aW9uIHdhcyB0aGUgZGlyZWN0IGNhdXNlIG9mIHRoZSBmb2xsb3dpbmcgZXhjZXB0aW9uOgoKVHJhY2ViYWNrIChtb3N0IHJlY2VudCBjYWxsIGxhc3QpOgogIEZpbGUgImc6XEdpdEh1YlxQeUtvdG9yXHRlc3RzXHRlc3RfdXRpbGl0eVx0ZXN0X3Rhc2tzLnB5IiwgbGluZSAyNjIsIGluIHRlc3RfdGFza19wYXVzZV9mbGFnCiAgICByZXN1bHQ6IGludCA9IGZ1dHVyZS5yZXN1bHQoKQogICAgICAgICAgICAgICAgICB+fn5+fn5+fn5+fn5+Xl4KICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXGNvbmN1cnJlbnRcZnV0dXJlc1xfYmFzZS5weSIsIGxpbmUgNDQ5LCBpbiByZXN1bHQKICAgIHJldHVybiBzZWxmLl9fZ2V0X3Jlc3VsdCgpCiAgICAgICAgICAgfn5+fn5+fn5+fn5+fn5+fn5eXgogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcY29uY3VycmVudFxmdXR1cmVzXF9iYXNlLnB5IiwgbGluZSA0MDEsIGluIF9fZ2V0X3Jlc3VsdAogICAgcmFpc2Ugc2VsZi5fZXhjZXB0aW9uCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccXVldWVzLnB5IiwgbGluZSAyNjIsIGluIF9mZWVkCiAgICBvYmogPSBfRm9ya2luZ1BpY2tsZXIuZHVtcHMob2JqKQogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHJlZHVjdGlvbi5weSIsIGxpbmUgNTEsIGluIGR1bXBzCiAgICBjbHMoYnVmLCBwcm90b2NvbCkuZHVtcChvYmopCiAgICB+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fl5eXl5eCkF0dHJpYnV0ZUVycm9yOiBDYW4ndCBnZXQgbG9jYWwgb2JqZWN0ICdUZXN0RmlsZUFjdGlvbnNFeGVjdXRvci50ZXN0X3Rhc2tfcGF1c2VfZmxhZy48bG9jYWxzPi5jdXN0b21fZnVuYycK
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): Getting task: 4ca77c8b-4007-4cc6-8a35-068dfa726aa6, result: Task(id='4ca77c8b-4007-4cc6-8a35-068dfa726aa6', operation='custom_operation', args=(1, 2), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad48680>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad495a0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad49650>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 27, 941880, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 28, 227045, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error="Can't get local object 'TestFileActionsExecutor.test_task_error.<locals>.custom_func'", description='')
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 5b851bb3-170a-4276-a521-d31a9c245301, operation: operation1
+PID=18840 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 5b851bb3-170a-4276-a521-d31a9c245301, operation: operation1
+DEBUG(root): Queueing task: bf46942e-1ef4-4ec5-8652-94f3fd0ef926, operation: operation2
+DEBUG(root): Total tasks: 2
+DEBUG(root): Updating progress: 0/2
+DEBUG(root): Task statuses: ['PENDING', 'PENDING']
+DEBUG(root): Task queued: bf46942e-1ef4-4ec5-8652-94f3fd0ef926, operation: operation2
+DEBUG(root): Getting task: 5b851bb3-170a-4276-a521-d31a9c245301, result: Task(id='5b851bb3-170a-4276-a521-d31a9c245301', operation='operation1', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad49f40>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4a4c0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4a360>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=1, start_time=datetime.datetime(2025, 11, 9, 0, 16, 29, 291963, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Getting task: bf46942e-1ef4-4ec5-8652-94f3fd0ef926, result: Task(id='bf46942e-1ef4-4ec5-8652-94f3fd0ef926', operation='operation2', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4a570>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4a830>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4a780>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=2, start_time=datetime.datetime(2025, 11, 9, 0, 16, 29, 590037, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+.
+
+TEST_EXECUTION_RESULT:passed:test_utility.test_tasks.TestFileActionsExecutor.test_task_priority:
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Getting task: 852c9102-cb6a-4a87-9da0-90994fe450db, result: Task(id='852c9102-cb6a-4a87-9da0-90994fe450db', operation='custom_operation', args=(1, 2), kwargs={'c': 3, 'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad49020>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4a990>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4a8e0>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 28, 394386, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 28, 659376, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error="Can't get local object 'TestFileActionsExecutor.test_task_kwargs.<locals>.custom_func'", description='')
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 5fee9d07-4679-4936-ba53-ff116fc2e6e9, operation: custom_operation
+DEBUG(root): Getting task: bffa5cfc-a527-407f-9bcb-847c1d3c9979, result: None
+PID=36416 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=36416 - DEBUG(root): Executing task: operation=operation1, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1c999633cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1c99b77e660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1c99b7865d0>}
+DEBUG(root): Task completed callback for: 5b851bb3-170a-4276-a521-d31a9c245301
+DEBUG(root): Getting task: 5b851bb3-170a-4276-a521-d31a9c245301, result: Task(id='5b851bb3-170a-4276-a521-d31a9c245301', operation='operation1', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad497b0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4aa40>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4aaf0>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=1, start_time=datetime.datetime(2025, 11, 9, 0, 16, 29, 291963, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 5b851bb3-170a-4276-a521-d31a9c245301, error: Invalid operation: operation1
+DEBUG(root): Total tasks: 2
+DEBUG(root): Updating progress: 1/2
+PID=33596 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Task statuses: ['FAILED', 'PENDING']
+PID=33596 - DEBUG(root): Executing task: operation=operation2, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x226b1703cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x226b38ce660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x226b38d65d0>}
+DEBUG(root): Total tasks: 2
+DEBUG(root): Task completed callback for: bf46942e-1ef4-4ec5-8652-94f3fd0ef926
+DEBUG(root): Getting task: bf46942e-1ef4-4ec5-8652-94f3fd0ef926, result: Task(id='bf46942e-1ef4-4ec5-8652-94f3fd0ef926', operation='operation2', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad48680>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad49b20>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4a200>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=2, start_time=datetime.datetime(2025, 11, 9, 0, 16, 29, 590037, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: bf46942e-1ef4-4ec5-8652-94f3fd0ef926, error: Invalid operation: operation2
+DEBUG(root): Total tasks: 2
+DEBUG(root): Updating progress: 2/2
+DEBUG(root): Task statuses: ['FAILED', 'FAILED']
+DEBUG(root): Getting task: 6b474c76-e216-418b-840b-6c1241308a88, result: None
+DEBUG(root): Total tasks: 2
+PID=2796 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): All tasks completed
+DEBUG(root): Task completed callback for: 5fee9d07-4679-4936-ba53-ff116fc2e6e9
+DEBUG(root): Getting task: 5fee9d07-4679-4936-ba53-ff116fc2e6e9, result: Task(id='5fee9d07-4679-4936-ba53-ff116fc2e6e9', operation='custom_operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4a200>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4aa40>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4afc0>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 29, 803438, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 5fee9d07-4679-4936-ba53-ff116fc2e6e9, error: Can't get local object 'TestFileActionsExecutor.test_task_progress.<locals>.custom_func'
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Task queued: 5fee9d07-4679-4936-ba53-ff116fc2e6e9, operation: custom_operation
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): Getting task: 38f272e9-4608-47cb-bff3-4709eb18dec4, result: Task(id='38f272e9-4608-47cb-bff3-4709eb18dec4', operation='custom_operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad49a70>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4afc0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad49650>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 28, 835616, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 29, 109882, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error="Can't get local object 'TestFileActionsExecutor.test_task_pause_flag.<locals>.custom_func'", description='')
+E
+
+TEST_EXECUTION_RESULT:failed:test_utility.test_tasks.TestFileActionsExecutor.test_task_progress:Y29uY3VycmVudC5mdXR1cmVzLnByb2Nlc3MuX1JlbW90ZVRyYWNlYmFjazogCiIiIgpUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6CiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccXVldWVzLnB5IiwgbGluZSAyNjIsIGluIF9mZWVkCiAgICBvYmogPSBfRm9ya2luZ1BpY2tsZXIuZHVtcHMob2JqKQogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHJlZHVjdGlvbi5weSIsIGxpbmUgNTEsIGluIGR1bXBzCiAgICBjbHMoYnVmLCBwcm90b2NvbCkuZHVtcChvYmopCiAgICB+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fl5eXl5eCkF0dHJpYnV0ZUVycm9yOiBDYW4ndCBnZXQgbG9jYWwgb2JqZWN0ICdUZXN0RmlsZUFjdGlvbnNFeGVjdXRvci50ZXN0X3Rhc2tfcHJvZ3Jlc3MuPGxvY2Fscz4uY3VzdG9tX2Z1bmMnCiIiIgoKVGhlIGFib3ZlIGV4Y2VwdGlvbiB3YXMgdGhlIGRpcmVjdCBjYXVzZSBvZiB0aGUgZm9sbG93aW5nIGV4Y2VwdGlvbjoKClRyYWNlYmFjayAobW9zdCByZWNlbnQgY2FsbCBsYXN0KToKICBGaWxlICJnOlxHaXRIdWJcUHlLb3Rvclx0ZXN0c1x0ZXN0X3V0aWxpdHlcdGVzdF90YXNrcy5weSIsIGxpbmUgMjAyLCBpbiB0ZXN0X3Rhc2tfcHJvZ3Jlc3MKICAgIHJlc3VsdDogaW50ID0gZnV0dXJlLnJlc3VsdCgpCiAgICAgICAgICAgICAgICAgIH5+fn5+fn5+fn5+fn5eXgogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcY29uY3VycmVudFxmdXR1cmVzXF9iYXNlLnB5IiwgbGluZSA0NDksIGluIHJlc3VsdAogICAgcmV0dXJuIHNlbGYuX19nZXRfcmVzdWx0KCkKICAgICAgICAgICB+fn5+fn5+fn5+fn5+fn5+fl5eCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxjb25jdXJyZW50XGZ1dHVyZXNcX2Jhc2UucHkiLCBsaW5lIDQwMSwgaW4gX19nZXRfcmVzdWx0CiAgICByYWlzZSBzZWxmLl9leGNlcHRpb24KICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXG11bHRpcHJvY2Vzc2luZ1xxdWV1ZXMucHkiLCBsaW5lIDI2MiwgaW4gX2ZlZWQKICAgIG9iaiA9IF9Gb3JraW5nUGlja2xlci5kdW1wcyhvYmopCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccmVkdWN0aW9uLnB5IiwgbGluZSA1MSwgaW4gZHVtcHMKICAgIGNscyhidWYsIHByb3RvY29sKS5kdW1wKG9iaikKICAgIH5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+Xl5eXl4KQXR0cmlidXRlRXJyb3I6IENhbid0IGdldCBsb2NhbCBvYmplY3QgJ1Rlc3RGaWxlQWN0aW9uc0V4ZWN1dG9yLnRlc3RfdGFza19wcm9ncmVzcy48bG9jYWxzPi5jdXN0b21fZnVuYycK
+
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: b06c69ed-2390-404b-8bd2-e419abbadbfa, operation: custom_operation
+PID=34512 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Task completed callback for: b06c69ed-2390-404b-8bd2-e419abbadbfa
+DEBUG(root): Getting task: b06c69ed-2390-404b-8bd2-e419abbadbfa, result: Task(id='b06c69ed-2390-404b-8bd2-e419abbadbfa', operation='custom_operation', args=(3, 4), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4adb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4b3e0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4b330>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 30, 251831, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: b06c69ed-2390-404b-8bd2-e419abbadbfa, error: Can't get local object 'TestFileActionsExecutor.test_task_result.<locals>.custom_func'
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Task queued: b06c69ed-2390-404b-8bd2-e419abbadbfa, operation: custom_operation
+E
+
+TEST_EXECUTION_RESULT:failed:test_utility.test_tasks.TestFileActionsExecutor.test_task_result:Y29uY3VycmVudC5mdXR1cmVzLnByb2Nlc3MuX1JlbW90ZVRyYWNlYmFjazogCiIiIgpUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6CiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccXVldWVzLnB5IiwgbGluZSAyNjIsIGluIF9mZWVkCiAgICBvYmogPSBfRm9ya2luZ1BpY2tsZXIuZHVtcHMob2JqKQogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHJlZHVjdGlvbi5weSIsIGxpbmUgNTEsIGluIGR1bXBzCiAgICBjbHMoYnVmLCBwcm90b2NvbCkuZHVtcChvYmopCiAgICB+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fl5eXl5eCkF0dHJpYnV0ZUVycm9yOiBDYW4ndCBnZXQgbG9jYWwgb2JqZWN0ICdUZXN0RmlsZUFjdGlvbnNFeGVjdXRvci50ZXN0X3Rhc2tfcmVzdWx0Ljxsb2NhbHM+LmN1c3RvbV9mdW5jJwoiIiIKClRoZSBhYm92ZSBleGNlcHRpb24gd2FzIHRoZSBkaXJlY3QgY2F1c2Ugb2YgdGhlIGZvbGxvd2luZyBleGNlcHRpb246CgpUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6CiAgRmlsZSAiZzpcR2l0SHViXFB5S290b3JcdGVzdHNcdGVzdF91dGlsaXR5XHRlc3RfdGFza3MucHkiLCBsaW5lIDE4MSwgaW4gdGVzdF90YXNrX3Jlc3VsdAogICAgcmVzdWx0OiBpbnQgPSBmdXR1cmUucmVzdWx0KCkKICAgICAgICAgICAgICAgICAgfn5+fn5+fn5+fn5+fl5eCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxjb25jdXJyZW50XGZ1dHVyZXNcX2Jhc2UucHkiLCBsaW5lIDQ0OSwgaW4gcmVzdWx0CiAgICByZXR1cm4gc2VsZi5fX2dldF9yZXN1bHQoKQogICAgICAgICAgIH5+fn5+fn5+fn5+fn5+fn5+Xl4KICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXGNvbmN1cnJlbnRcZnV0dXJlc1xfYmFzZS5weSIsIGxpbmUgNDAxLCBpbiBfX2dldF9yZXN1bHQKICAgIHJhaXNlIHNlbGYuX2V4Y2VwdGlvbgogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHF1ZXVlcy5weSIsIGxpbmUgMjYyLCBpbiBfZmVlZAogICAgb2JqID0gX0ZvcmtpbmdQaWNrbGVyLmR1bXBzKG9iaikKICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXG11bHRpcHJvY2Vzc2luZ1xyZWR1Y3Rpb24ucHkiLCBsaW5lIDUxLCBpbiBkdW1wcwogICAgY2xzKGJ1ZiwgcHJvdG9jb2wpLmR1bXAob2JqKQogICAgfn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5eXl5eXgpBdHRyaWJ1dGVFcnJvcjogQ2FuJ3QgZ2V0IGxvY2FsIG9iamVjdCAnVGVzdEZpbGVBY3Rpb25zRXhlY3V0b3IudGVzdF90YXNrX3Jlc3VsdC48bG9jYWxzPi5jdXN0b21fZnVuYycK
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): Getting task: 5b851bb3-170a-4276-a521-d31a9c245301, result: Task(id='5b851bb3-170a-4276-a521-d31a9c245301', operation='operation1', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad481b0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4b330>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48310>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=1, start_time=datetime.datetime(2025, 11, 9, 0, 16, 29, 291963, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 29, 960247, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation1', description='')
+DEBUG(root): Getting task: bf46942e-1ef4-4ec5-8652-94f3fd0ef926, result: Task(id='bf46942e-1ef4-4ec5-8652-94f3fd0ef926', operation='operation2', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4a620>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad49c80>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad49de0>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=2, start_time=datetime.datetime(2025, 11, 9, 0, 16, 29, 590037, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 30, 13201, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation2', description='')
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 81d4eff1-46a1-46e0-9f08-0afdeed580f0, operation: custom_operation
+DEBUG(root): Getting task: bffa5cfc-a527-407f-9bcb-847c1d3c9979, result: None
+PID=27448 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Task completed callback for: 81d4eff1-46a1-46e0-9f08-0afdeed580f0
+DEBUG(root): Getting task: 81d4eff1-46a1-46e0-9f08-0afdeed580f0, result: Task(id='81d4eff1-46a1-46e0-9f08-0afdeed580f0', operation='custom_operation', args=(5, 3), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad481b0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4b750>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4aba0>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 30, 698314, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 81d4eff1-46a1-46e0-9f08-0afdeed580f0, error: Can't get local object 'TestFileActionsExecutor.test_task_retry.<locals>.custom_func'
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Task queued: 81d4eff1-46a1-46e0-9f08-0afdeed580f0, operation: custom_operation
+E
+
+TEST_EXECUTION_RESULT:failed:test_utility.test_tasks.TestFileActionsExecutor.test_task_retry:Y29uY3VycmVudC5mdXR1cmVzLnByb2Nlc3MuX1JlbW90ZVRyYWNlYmFjazogCiIiIgpUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6CiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccXVldWVzLnB5IiwgbGluZSAyNjIsIGluIF9mZWVkCiAgICBvYmogPSBfRm9ya2luZ1BpY2tsZXIuZHVtcHMob2JqKQogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcbXVsdGlwcm9jZXNzaW5nXHJlZHVjdGlvbi5weSIsIGxpbmUgNTEsIGluIGR1bXBzCiAgICBjbHMoYnVmLCBwcm90b2NvbCkuZHVtcChvYmopCiAgICB+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fl5eXl5eCkF0dHJpYnV0ZUVycm9yOiBDYW4ndCBnZXQgbG9jYWwgb2JqZWN0ICdUZXN0RmlsZUFjdGlvbnNFeGVjdXRvci50ZXN0X3Rhc2tfcmV0cnkuPGxvY2Fscz4uY3VzdG9tX2Z1bmMnCiIiIgoKVGhlIGFib3ZlIGV4Y2VwdGlvbiB3YXMgdGhlIGRpcmVjdCBjYXVzZSBvZiB0aGUgZm9sbG93aW5nIGV4Y2VwdGlvbjoKClRyYWNlYmFjayAobW9zdCByZWNlbnQgY2FsbCBsYXN0KToKICBGaWxlICJnOlxHaXRIdWJcUHlLb3Rvclx0ZXN0c1x0ZXN0X3V0aWxpdHlcdGVzdF90YXNrcy5weSIsIGxpbmUgMjg4LCBpbiB0ZXN0X3Rhc2tfcmV0cnkKICAgIHJlc3VsdDogaW50ID0gZnV0dXJlLnJlc3VsdCgpCiAgICAgICAgICAgICAgICAgIH5+fn5+fn5+fn5+fn5eXgogIEZpbGUgIkM6XFVzZXJzXGJvZGVuXEFwcERhdGFcUm9hbWluZ1x1dlxweXRob25cY3B5dGhvbi0zLjEzLjUtd2luZG93cy14ODZfNjQtbm9uZVxMaWJcY29uY3VycmVudFxmdXR1cmVzXF9iYXNlLnB5IiwgbGluZSA0NDksIGluIHJlc3VsdAogICAgcmV0dXJuIHNlbGYuX19nZXRfcmVzdWx0KCkKICAgICAgICAgICB+fn5+fn5+fn5+fn5+fn5+fl5eCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxjb25jdXJyZW50XGZ1dHVyZXNcX2Jhc2UucHkiLCBsaW5lIDQwMSwgaW4gX19nZXRfcmVzdWx0CiAgICByYWlzZSBzZWxmLl9leGNlcHRpb24KICBGaWxlICJDOlxVc2Vyc1xib2RlblxBcHBEYXRhXFJvYW1pbmdcdXZccHl0aG9uXGNweXRob24tMy4xMy41LXdpbmRvd3MteDg2XzY0LW5vbmVcTGliXG11bHRpcHJvY2Vzc2luZ1xxdWV1ZXMucHkiLCBsaW5lIDI2MiwgaW4gX2ZlZWQKICAgIG9iaiA9IF9Gb3JraW5nUGlja2xlci5kdW1wcyhvYmopCiAgRmlsZSAiQzpcVXNlcnNcYm9kZW5cQXBwRGF0YVxSb2FtaW5nXHV2XHB5dGhvblxjcHl0aG9uLTMuMTMuNS13aW5kb3dzLXg4Nl82NC1ub25lXExpYlxtdWx0aXByb2Nlc3NpbmdccmVkdWN0aW9uLnB5IiwgbGluZSA1MSwgaW4gZHVtcHMKICAgIGNscyhidWYsIHByb3RvY29sKS5kdW1wKG9iaikKICAgIH5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+Xl5eXl4KQXR0cmlidXRlRXJyb3I6IENhbid0IGdldCBsb2NhbCBvYmplY3QgJ1Rlc3RGaWxlQWN0aW9uc0V4ZWN1dG9yLnRlc3RfdGFza19yZXRyeS48bG9jYWxzPi5jdXN0b21fZnVuYycK
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): Getting task: 6b474c76-e216-418b-840b-6c1241308a88, result: None
+DEBUG(root): Getting task: 5fee9d07-4679-4936-ba53-ff116fc2e6e9, result: Task(id='5fee9d07-4679-4936-ba53-ff116fc2e6e9', operation='custom_operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4b120>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4aba0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4b490>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 29, 803438, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 30, 76898, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error="Can't get local object 'TestFileActionsExecutor.test_task_progress.<locals>.custom_func'", description='')
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 0df1b24a-cb1a-433e-ba17-5d0e78973596, operation: operation
+PID=36672 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 0df1b24a-cb1a-433e-ba17-5d0e78973596, operation: operation
+DEBUG(root): Getting task: 0df1b24a-cb1a-433e-ba17-5d0e78973596, result: Task(id='0df1b24a-cb1a-433e-ba17-5d0e78973596', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4af10>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4b8b0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4b330>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 31, 183189, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+.
+
+TEST_EXECUTION_RESULT:passed:test_utility.test_tasks.TestFileActionsExecutor.test_task_start_time:
+
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Getting task: b06c69ed-2390-404b-8bd2-e419abbadbfa, result: Task(id='b06c69ed-2390-404b-8bd2-e419abbadbfa', operation='custom_operation', args=(3, 4), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4aa40>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4b960>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4af10>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 30, 251831, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 30, 515919, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error="Can't get local object 'TestFileActionsExecutor.test_task_result.<locals>.custom_func'", description='')
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 75204e9a-7378-4d5b-abb5-06e5d9838456, operation: operation
+PID=22364 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 75204e9a-7378-4d5b-abb5-06e5d9838456, operation: operation
+DEBUG(root): Getting task: 75204e9a-7378-4d5b-abb5-06e5d9838456, result: Task(id='75204e9a-7378-4d5b-abb5-06e5d9838456', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4b280>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdb0fc100>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdb0fc050>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 31, 648421, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Initializing FileActionsExecutor with max_workers: 12
+DEBUG(root): Getting task: bffa5cfc-a527-407f-9bcb-847c1d3c9979, result: None
+F
+
+TEST_EXECUTION_RESULT:failed:test_utility.test_tasks.TestFileActionsExecutor.test_task_status:VHJhY2ViYWNrIChtb3N0IHJlY2VudCBjYWxsIGxhc3QpOgogIEZpbGUgImc6XEdpdEh1YlxQeUtvdG9yXHRlc3RzXHRlc3RfdXRpbGl0eVx0ZXN0X3Rhc2tzLnB5IiwgbGluZSAxNjgsIGluIHRlc3RfdGFza19zdGF0dXMKICAgIGFzc2VydCB0YXNrLnN0YXR1cyA9PSBUYXNrU3RhdHVzLlJVTk5JTkcsIGYie3Rhc2suc3RhdHVzfSA9PSB7VGFza1N0YXR1cy5SVU5OSU5HfSIKICAgICAgICAgICBeXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl4KQXNzZXJ0aW9uRXJyb3I6IFRhc2tTdGF0dXMuUEVORElORyA9PSBUYXNrU3RhdHVzLlJVTk5JTkcK
+
+DEBUG(root): Getting task: 81d4eff1-46a1-46e0-9f08-0afdeed580f0, result: Task(id='81d4eff1-46a1-46e0-9f08-0afdeed580f0', operation='custom_operation', args=(5, 3), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad49e90>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdac99de0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdac9b5f0>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 30, 698314, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 30, 999221, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error="Can't get local object 'TestFileActionsExecutor.test_task_retry.<locals>.custom_func'", description='')
+DEBUG(root): Getting task: 6b474c76-e216-418b-840b-6c1241308a88, result: None
+PID=33048 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=33048 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x21d30953cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x21d32a3e660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x21d32a465d0>}
+DEBUG(root): Task completed callback for: 0df1b24a-cb1a-433e-ba17-5d0e78973596
+DEBUG(root): FileActionsExecutor initialized
+DEBUG(root): Queueing task: 4e001fec-f0b5-455d-8b0e-f95c08816a21, operation: operation
+DEBUG(root): Getting task: 0df1b24a-cb1a-433e-ba17-5d0e78973596, result: Task(id='0df1b24a-cb1a-433e-ba17-5d0e78973596', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4a620>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad49e90>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48310>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 31, 183189, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 0df1b24a-cb1a-433e-ba17-5d0e78973596, error: Invalid operation: operation
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+PID=31628 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=31628 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x233e7c83cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x233e9d0e660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x233e9d165d0>}
+DEBUG(root): Task completed callback for: 75204e9a-7378-4d5b-abb5-06e5d9838456
+DEBUG(root): Getting task: 75204e9a-7378-4d5b-abb5-06e5d9838456, result: Task(id='75204e9a-7378-4d5b-abb5-06e5d9838456', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4bcd0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4b800>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48310>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 31, 648421, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 75204e9a-7378-4d5b-abb5-06e5d9838456, error: Invalid operation: operation
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+PID=18128 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 0/1
+DEBUG(root): Task statuses: ['PENDING']
+DEBUG(root): Task queued: 4e001fec-f0b5-455d-8b0e-f95c08816a21, operation: operation
+DEBUG(root): Updating task progress: 4e001fec-f0b5-455d-8b0e-f95c08816a21, progress: 0.5
+DEBUG(root): Getting task: 4e001fec-f0b5-455d-8b0e-f95c08816a21, result: Task(id='4e001fec-f0b5-455d-8b0e-f95c08816a21', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdb0fc680>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdb0fc730>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdb0fc100>}, status=<TaskStatus.PENDING: 1>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 32, 98764, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Getting task: 4e001fec-f0b5-455d-8b0e-f95c08816a21, result: Task(id='4e001fec-f0b5-455d-8b0e-f95c08816a21', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdb0fc100>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdb0fc680>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdb0fc730>}, status=<TaskStatus.PENDING: 1>, progress=0.5, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 32, 98764, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+.
+
+TEST_EXECUTION_RESULT:passed:test_utility.test_tasks.TestFileActionsExecutor.test_update_task_progress:
+
+
+======================================================================
+ERROR: test_custom_function (test_utility.test_tasks.TestFileActionsExecutor.test_custom_function)
+----------------------------------------------------------------------
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_custom_function.<locals>.custom_func'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\tests\test_utility\test_tasks.py", line 148, in test_custom_function
+    result: int = future.result()
+                  ~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_custom_function.<locals>.custom_func'
+
+======================================================================
+ERROR: test_queue_task_with_custom_function (test_utility.test_tasks.TestFileActionsExecutor.test_queue_task_with_custom_function)
+----------------------------------------------------------------------
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_queue_task_with_custom_function.<locals>.custom_func'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\tests\test_utility\test_tasks.py", line 42, in test_queue_task_with_custom_function
+    result: int = future.result()
+                  ~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_queue_task_with_custom_function.<locals>.custom_func'
+
+======================================================================
+ERROR: test_task_cancel_flag (test_utility.test_tasks.TestFileActionsExecutor.test_task_cancel_flag)
+----------------------------------------------------------------------
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_task_cancel_flag.<locals>.custom_func'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\tests\test_utility\test_tasks.py", line 278, in test_task_cancel_flag
+    result: int = future.result()
+                  ~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_task_cancel_flag.<locals>.custom_func'
+
+======================================================================
+ERROR: test_task_completed (test_utility.test_tasks.TestFileActionsExecutor.test_task_completed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\unittest\mock.py", line 1423, in patched
+    with self.decoration_helper(patched,
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+                                args,
+                                ^^^^^
+                                keywargs) as (newargs, newkeywargs):
+                                ^^^^^^^^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\unittest\mock.py", line 1405, in decoration_helper
+    arg = exit_stack.enter_context(patching)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\contextlib.py", line 530, in enter_context
+    result = _enter(cm)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\unittest\mock.py", line 1481, in __enter__
+    self.target = self.getter()
+                  ~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\pkgutil.py", line 513, in resolve_name
+    mod = importlib.import_module(modname)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'FileActionsExecutor'
+
+======================================================================
+ERROR: test_task_end_time (test_utility.test_tasks.TestFileActionsExecutor.test_task_end_time)
+----------------------------------------------------------------------
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "G:\GitHub/PyKotor/Libraries/PyKotor/src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 190, in _execute_task
+    raise ValueError(f"Invalid operation: {operation}")
+ValueError: Invalid operation: operation
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\tests\test_utility\test_tasks.py", line 233, in test_task_end_time
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+ValueError: Invalid operation: operation
+
+======================================================================
+ERROR: test_task_error (test_utility.test_tasks.TestFileActionsExecutor.test_task_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\tests\test_utility\test_tasks.py", line 190, in test_task_error
+    with pytest.raises(ValueError):
+         ^^^^^^
+NameError: name 'pytest' is not defined. Did you mean: 'bytes'?
+
+======================================================================
+ERROR: test_task_kwargs (test_utility.test_tasks.TestFileActionsExecutor.test_task_kwargs)
+----------------------------------------------------------------------
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_task_kwargs.<locals>.custom_func'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\tests\test_utility\test_tasks.py", line 250, in test_task_kwargs
+    result: int = future.result()
+                  ~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_task_kwargs.<locals>.custom_func'
+
+======================================================================
+ERROR: test_task_pause_flag (test_utility.test_tasks.TestFileActionsExecutor.test_task_pause_flag)
+----------------------------------------------------------------------
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_task_pause_flag.<locals>.custom_func'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\tests\test_utility\test_tasks.py", line 262, in test_task_pause_flag
+    result: int = future.result()
+                  ~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_task_pause_flag.<locals>.custom_func'
+
+======================================================================
+ERROR: test_task_progress (test_utility.test_tasks.TestFileActionsExecutor.test_task_progress)
+----------------------------------------------------------------------
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_task_progress.<locals>.custom_func'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\tests\test_utility\test_tasks.py", line 202, in test_task_progress
+    result: int = future.result()
+                  ~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_task_progress.<locals>.custom_func'
+
+======================================================================
+ERROR: test_task_result (test_utility.test_tasks.TestFileActionsExecutor.test_task_result)
+----------------------------------------------------------------------
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_task_result.<locals>.custom_func'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\tests\test_utility\test_tasks.py", line 181, in test_task_result
+    result: int = future.result()
+                  ~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_task_result.<locals>.custom_func'
+
+======================================================================
+ERROR: test_task_retry (test_utility.test_tasks.TestFileActionsExecutor.test_task_retry)
+----------------------------------------------------------------------
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_task_retry.<locals>.custom_func'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\tests\test_utility\test_tasks.py", line 288, in test_task_retry
+    result: int = future.result()
+                  ~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\queues.py", line 262, in _feed
+    obj = _ForkingPickler.dumps(obj)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 51, in dumps
+    cls(buf, protocol).dump(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+AttributeError: Can't get local object 'TestFileActionsExecutor.test_task_retry.<locals>.custom_func'
+
+======================================================================
+FAIL: test_task_status (test_utility.test_tasks.TestFileActionsExecutor.test_task_status)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\tests\test_utility\test_tasks.py", line 168, in test_task_status
+    assert task.status == TaskStatus.RUNNING, f"{task.status} == {TaskStatus.RUNNING}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: TaskStatus.PENDING == TaskStatus.RUNNING
+
+----------------------------------------------------------------------
+Ran 24 tests in 12.218s
+
+FAILED (failures=1, errors=11)
+DEBUG(root): Getting task: 0df1b24a-cb1a-433e-ba17-5d0e78973596, result: Task(id='0df1b24a-cb1a-433e-ba17-5d0e78973596', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4ba10>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4b800>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad48100>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 31, 183189, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 32, 92228, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation', description='')
+PID=34964 - INFO(root): utility.ui_libraries.qt.common.expensive_functions
+PID=34964 - DEBUG(root): Executing task: operation=operation, args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x2355f053cb0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x2356117e660>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x235611865d0>}
+DEBUG(root): Task completed callback for: 4e001fec-f0b5-455d-8b0e-f95c08816a21
+DEBUG(root): Getting task: 4e001fec-f0b5-455d-8b0e-f95c08816a21, result: Task(id='4e001fec-f0b5-455d-8b0e-f95c08816a21', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4ae60>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad481b0>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4a200>}, status=<TaskStatus.PENDING: 1>, progress=0.5, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 32, 98764, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=None, result=None, error=None, description='')
+DEBUG(root): Task failed: 4e001fec-f0b5-455d-8b0e-f95c08816a21, error: Invalid operation: operation
+DEBUG(root): Total tasks: 1
+DEBUG(root): Updating progress: 1/1
+DEBUG(root): Task statuses: ['FAILED']
+DEBUG(root): Total tasks: 1
+DEBUG(root): All tasks completed
+DEBUG(root): Getting task: 75204e9a-7378-4d5b-abb5-06e5d9838456, result: Task(id='75204e9a-7378-4d5b-abb5-06e5d9838456', operation='operation', args=(), kwargs={'progress_queue': <AutoProxy[Queue] object, typeid 'Queue' at 0x1afdad4bee0>, 'pause_flag': <ValueProxy object, typeid 'Value' at 0x1afdad4a200>, 'cancel_flag': <ValueProxy object, typeid 'Value' at 0x1afdad49e90>}, status=<TaskStatus.FAILED: 5>, progress=0.0, priority=0, start_time=datetime.datetime(2025, 11, 9, 0, 16, 31, 648421, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), end_time=datetime.datetime(2025, 11, 9, 0, 16, 32, 320184, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=64800), 'Central Standard Time')), result=None, error='Invalid operation: operation', description='')
+DEBUG(root): Getting task: bffa5cfc-a527-407f-9bcb-847c1d3c9979, result: None
+Exception in thread Thread-4 (_monitor_progress):
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 205, in _monitor_progress
+    progress: int = progress_queue.get(timeout=1)
+                    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<string>", line 2, in get
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\managers.py", line 847, in _callmethod
+    raise convert_to_error(kind, result)
+_queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 208, in _monitor_progress
+    task: Task | None = self.get_task(task_id)
+                        ~~~~~~~~~~~~~^^^^^^^^^
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 220, in get_task
+    task: Task | None = self.tasks.get(task_id)
+                        ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<string>", line 2, in get
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\managers.py", line 847, in _callmethod
+    raise convert_to_error(kind, result)
+multiprocessing.managers.RemoteError: 
+---------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\managers.py", line 263, in serve_client
+    self.id_to_local_proxy_obj[ident]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: '170d8ddfc80'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\managers.py", line 265, in serve_client
+    raise ke
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\managers.py", line 259, in serve_client
+    obj, exposed, gettypeid = id_to_obj[ident]
+                              ~~~~~~~~~^^^^^^^
+KeyError: '170d8ddfc80'
+---------------------------------------------------------------------------
+Exception in thread Thread-48 (_monitor_progress):
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\connection.py", line 328, in _recv_bytes
+    nread, err = ov.GetOverlappedResult(True)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+BrokenPipeError: [WinError 109] The pipe has been ended
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 205, in _monitor_progress
+    progress: int = progress_queue.get(timeout=1)
+                    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<string>", line 2, in get
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\managers.py", line 831, in _callmethod
+    kind, result = conn.recv()
+                   ~~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\connection.py", line 337, in _recv_bytes
+    raise EOFError
+EOFError
+Exception in thread Thread-20 (_monitor_progress):
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 205, in _monitor_progress
+    progress: int = progress_queue.get(timeout=1)
+                    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<string>", line 2, in get
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\managers.py", line 847, in _callmethod
+    raise convert_to_error(kind, result)
+_queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 208, in _monitor_progress
+    task: Task | None = self.get_task(task_id)
+                        ~~~~~~~~~~~~~^^^^^^^^^
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 220, in get_task
+    task: Task | None = self.tasks.get(task_id)
+                        ~~~~~~~~~~~~~~^^^^^^^^^
+  File "<string>", line 2, in get
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\managers.py", line 847, in _callmethod
+    raise convert_to_error(kind, result)
+multiprocessing.managers.RemoteError: 
+---------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\managers.py", line 263, in serve_client
+    self.id_to_local_proxy_obj[ident]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: '2a31d00fc80'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\managers.py", line 265, in serve_client
+    raise ke
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\multiprocessing\managers.py", line 259, in serve_client
+    obj, exposed, gettypeid = id_to_obj[ident]
+                              ~~~~~~~~~^^^^^^^
+KeyError: '2a31d00fc80'
+---------------------------------------------------------------------------
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+Exception ignored in: <function FileActionsExecutor.__del__ at 0x000001AFDACC0180>
+Traceback (most recent call last):
+  File "g:\GitHub\PyKotor\Libraries\PyKotor\src\utility\ui_libraries\qt\common\tasks\actions_executor.py", line 383, in __del__
+    RobustLogger().debug("Shutting down FileActionsExecutor")
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\logging\__init__.py", line 1510, in debug
+    self._log(DEBUG, msg, args, **kwargs)
+  File "g:\GitHub\PyKotor\.venv_3.13\Lib\site-packages\loggerplus\__init__.py", line 660, in _log
+    executor.submit(logging_task, level, msg, *args, exc_info=exc_info, extra=extra, **kwargs)
+  File "C:\Users\boden\AppData\Roaming\uv\python\cpython-3.13.5-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
